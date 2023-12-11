@@ -50,6 +50,11 @@ Narrow down the cities to reflect only those that are what you consider to have 
 
 ## <p style="color:#CC6600">References</p>
 
+OpenWeather API: https://openweathermap.org/api  
+Geoapify Geocoding API: https://www.geoapify.com/geocoding-api  
+Geoapify Places API: https://www.geoapify.com/places-api  
+
+Python Libraries: pandas, requests, matplotlib, numpy, scipy, citipy, hvPlot
 <br>
 <br>
 <br>
