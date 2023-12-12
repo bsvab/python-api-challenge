@@ -22,14 +22,18 @@ In this deliverable, you'll create a Python script to visualize the weather of o
 ### Requirement 2: Compute Linear Regression for Each Relationship
 
 <ins>Final Script Outputs</ins>:<img src="Images/uta_icon_checkmark.svg" width="30" height="12">  <br>
-![Results](output_data/Fig5.png)
-![Results](output_data/Fig6.png)
-![Results](output_data/Fig7.png)
-![Results](output_data/Fig8.png)
-![Results](output_data/Fig9.png)
-![Results](output_data/Fig10.png)
-![Results](output_data/Fig11.png)
-![Results](output_data/Fig12.png)
+![Results](output_data/Fig5.png)  
+![Results](output_data/Fig6.png)  
+**Discussion about the linear relationship:** The data reflects a clear correlation between latitude and temperature in both hemispheres, negative in the northern and positive in the southern. No surprises here... as you get closer and further from the equator, the weather and sun exposure changes affecting temperature with the warmest temperatures at the equator. The r-value of 0.83 for the northern hemisphere indicates a particularly strong representation.  
+![Results](output_data/Fig7.png)  
+![Results](output_data/Fig8.png)  
+**Discussion about the linear relationship:** Both the southern and northern hemisphere data shows a mildly positive relationship between latitude and humidity. With low r-values of 0.34 and 0.36 respectively, there are likely other factors in play. For example, we would need to consult a psychrometric chart to read the inter-dependence of the hudmidity ratio, dry bulb temperature, and wet bulb temperature. Air pressure also plays a big role in this relationship (how far above or below sea level are you).  
+![Results](output_data/Fig9.png)  
+![Results](output_data/Fig10.png)  
+**Discussion about the linear relationship:** Based on the r-values of 0.27 and 0.24, the northern and southern hemisphere cloudiness and latitude are not strongly linearly related. A regression is not a good fit with this data.  
+![Results](output_data/Fig11.png)  
+![Results](output_data/Fig12.png)  
+**Discussion about the linear relationship:** The northern hemisphere regression of latitude vs wind speed is nearly flat with a very low r-value of 0.17 indicating that the data is not well-represented by a linear relationship. The southern hemisphere regression shows a very mild negative relationship with an r value of -0.35 indicating that the relationship still may be too loose to consider it to be linear.  
 <br>
 
 ## <p style="color:#CC6600">Part 2 | VacationPy</p> 
